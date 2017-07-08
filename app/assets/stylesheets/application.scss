@@ -46,3 +46,28 @@
 	margin-left: 20px;
 }
 
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;    
+}
+
+.user-nav {
+	float: right;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.user-nav p {
+	text-align: center;
+}
+
+.user-nav a {
+	line-height: 20px;
+}
+
