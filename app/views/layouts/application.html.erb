@@ -38,8 +38,8 @@
         <% else %>
         <div class="user-nav">
         <p>Hello <%= current_user.email %></p>
-        <%= link_to 'Add new book'%> |
-        <%= link_to 'Add new author'%>
+        <%= link_to 'Add new book', new_book_path %> |
+        <%= link_to 'Add new author', new_author_path %>
         </div>
       </ul>
       <% end %>
