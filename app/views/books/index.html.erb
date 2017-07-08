@@ -5,11 +5,10 @@
       <p>Select category all</p>
       <% @books.each do |book|%>
       <div class="list-group">
-        <a href="#" class="list-group-item">
+        <a href="book" class="list-group-item">
           <div class="media col-md-3">
             <figure class="pull-left">
-              <%= image_tag("/images/index.jpeg", size:"350x250", class: "media-object img-rounded img-responsive") %>
-              <!-- <img class="media-object img-rounded img-responsive"  src="http://placehold.it/350x250" alt="placehold.it/350x250" > -->
+              <img class="media-object img-rounded img-responsive"  src="http://placehold.it/350x250" alt="placehold.it/350x250" >
             </figure>
           </div>
           <div class="col-md-6">
